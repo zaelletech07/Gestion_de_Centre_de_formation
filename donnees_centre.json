@@ -1,0 +1,68 @@
+{
+    "etudiants": [
+        {
+            "id": 1,
+            "nom": "Jean Gilles",
+            "prenom": "Ruud",
+            "type": "etudiant",
+            "cours_inscrits": []
+        }
+    ],
+    "formateurs": [
+        {
+            "id": 1,
+            "nom": "Louis",
+            "prenom": "Ruth Zaelle",
+            "type": "formateur",
+            "specialite": "Proviseur",
+            "cours_animes": [
+                1
+            ]
+        }
+    ],
+    "cours": [
+        {
+            "id": 1,
+            "titre": "1",
+            "id_formateur": 1,
+            "capacite": 15,
+            "creneaux": [
+                [
+                    "Lundi",
+                    7,
+                    10
+                ],
+                [
+                    "Mercredi",
+                    11,
+                    12
+                ],
+                [
+                    "Vendredi",
+                    2,
+                    3
+                ]
+            ],
+            "inscrits": [],
+            "liste_attente": []
+        }
+    ],
+    "evaluations": [],
+    "historique": [
+        {
+            "date": "2026-11-13 20:30:41",
+            "operation": "ajout_formateur",
+            "details": "Formateur ajouté : Ruth Zaelle Louis"
+        },
+        {
+            "date": "2026-11-13 20:35:53",
+            "operation": "creation_cours",
+            "details": "Cours créé : 1 (formateur : Ruth Zaelle Louis)"
+        },
+        {
+            "date": "2026-11-14 07:36:32",
+            "operation": "ajout_etudiant",
+            "details": "Étudiant ajouté : Ruud Jean Gilles"
+        }
+    ]
+}
